@@ -40,7 +40,7 @@ const fetchRecipe = async (query) => {
        recipeContainer.appendChild(recipeDiv);
 
       
-    //    adding event listener to the recipe button to show popup
+
 
     button.addEventListener('click', ()=> {
         openRecipePopup(meal);
@@ -106,3 +106,11 @@ searchBtn.addEventListener("click" , (e)=> {
      }
      fetchRecipe(searchinput);
 })
+
+
+
+
+
+
+
+
